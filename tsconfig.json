@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "strictFunctionTypes": false,
+        "experimentalDecorators":true,
+        "esModuleInterop":true,
+        "moduleResolution": "node",
+        "module": "esnext",
+        "target": "ES5",
+        "jsx": "react",
+        "lib": [
+          "dom",
+          "es5",
+          "es6",
+          "es7",
+          "es2015.promise"
+        ],
+        "pretty": true
+    },
+    "include": [ //包含的编译目录
+        "./**/*"
+    ],
+    "exclude": [ //排出不编译的目录
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
